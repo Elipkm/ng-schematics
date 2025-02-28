@@ -1,0 +1,20 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "mytemplate": {
+      "description": "Generate a custom template for the UI layout.",
+      "factory": "./mytemplate/index#mytemplate",
+      "schema": "./mytemplate/schema.json"
+    },
+    "mytemplate2": {
+      "description": "Extend mytemplate",
+      "factory": "./mytemplate2/index#mytemplate2",
+      "schema": "./mytemplate2/schema.json"
+    },
+    "mytemplate3": {
+      "description": "Extend mytemplate further",
+      "factory": "./mytemplate3/index#mytemplate3",
+      "schema": "./mytemplate3/schema.json"
+    }
+  }
+}

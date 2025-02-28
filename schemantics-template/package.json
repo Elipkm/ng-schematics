@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@angular-devkit/schematics-cli": "^19.1.8"
+  }
+}
